@@ -3,11 +3,11 @@
 @section('title', 'Dashboard')
 
 @section('content_header')
-    <h1>Dashboard</h1>
+    <h1>T社商品一覧</h1>
 @stop
 
 @section('content')
-    <p>Welcome to this beautiful admin panel.</p>
+    <p>Welcome to the T Company Product Listing Page.</p>
 @stop
 
 @section('css')
