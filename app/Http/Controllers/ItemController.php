@@ -40,6 +40,7 @@ class ItemController extends Controller
             $this->validate($request, [
                 'name' => 'required|max:100',
                 'detail' => 'required|max:100',
+                'type' => 'required|max:100',
             ]);
 
             // 商品登録
