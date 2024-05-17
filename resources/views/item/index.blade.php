@@ -7,6 +7,16 @@
 @stop
 
 @section('content')
+
+<div>
+  <form action="{{ route('crud.index') }}" method="GET">
+
+  @csrf
+
+    <input type="text" name="keyword">
+    <input type="submit" value="検索">
+  </form>
+</div>
     <div class="row">
         <div class="col-12">
             <div class="card">
@@ -55,6 +65,7 @@
         </div>
     </div>
 @stop
+
 
 @section('css')
 @stop
