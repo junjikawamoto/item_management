@@ -9,7 +9,7 @@
 @section('content')
 
 <div>
-  <form action="{{ route('crud.index') }}" method="GET">
+  <form action="{{ url('items') }}" method="GET">
 
   @csrf
 
