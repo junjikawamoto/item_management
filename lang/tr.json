@@ -1,0 +1,22 @@
+{
+    "A fresh verification link has been sent to your email address.": "E-posta adresinize yeni bir doğrulama bağlantısı gönderildi.",
+    "Before proceeding, please check your email for a verification link.": "Devam etmeden önce, lütfen doğrulama bağlantısı için e-posta adresinizi kontrol edin.",
+    "click here to request another": "başka bir istekte bulunmak için burayı tıklayın",
+    "Confirm Password": "Parolayı Onayla",
+    "Dashboard": "Gösterge Paneli",
+    "Email Address": "E-Posta Adresi",
+    "Forgot Your Password?": "Parolanızı mı unuttunuz?",
+    "If you did not receive the email": "Eğer e-postayı almadıysanız",
+    "Login": "Giriş Yap",
+    "Logout": "Çıkış Yap",
+    "Name": "Ad",
+    "Password": "Parola",
+    "Please confirm your password before continuing.": "Lütfen devam etmeden önce şifrenizi onaylayın.",
+    "Register": "Kayıt Ol",
+    "Remember Me": "Beni Hatırla",
+    "Reset Password": "Parolayı Sıfırla",
+    "Send Password Reset Link": "Parola Sıfırlama Bağlantısı Gönder",
+    "Toggle navigation": "Menüyü Aç/Kapat",
+    "Verify Your Email Address": "E-posta Adresinizi Doğrulayın",
+    "You are logged in!": "Giriş yaptınız!"
+}

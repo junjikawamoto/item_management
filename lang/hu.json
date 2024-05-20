@@ -1,0 +1,22 @@
+{
+    "A fresh verification link has been sent to your email address.": "Új ellenőrző linket küldtünk az e-mail címére.",
+    "Before proceeding, please check your email for a verification link.": "Mielőtt folytatná, kérjük, ellenőrizze e-mailjében az ellenőrző linket.",
+    "click here to request another": "ide kattintva kérhet másikat",
+    "Confirm Password": "Jelszó megerősítése",
+    "Dashboard": "Műszerfal",
+    "Email Address": "E-Mail Cím",
+    "Forgot Your Password?": "Elfelejtett jelszó?",
+    "If you did not receive the email": "Ha nem kapta meg az e-mailt",
+    "Login": "Bejelentkezés",
+    "Logout": "Kijelentkezés",
+    "Name": "Név",
+    "Password": "Jelszó",
+    "Please confirm your password before continuing.": "A folytatás előtt erősítse meg jelszavát.",
+    "Register": "Regisztráció",
+    "Remember Me": "Emlékezzen rám",
+    "Reset Password": "Jelszó helyreállítás",
+    "Send Password Reset Link": "Jelszó helyreállító hivatkozás küldése",
+    "Toggle navigation": "Navigáció be/ki",
+    "Verify Your Email Address": "Erősítsd meg az e-mail címed",
+    "You are logged in!": "Be vagy jelentkezve!"
+}
