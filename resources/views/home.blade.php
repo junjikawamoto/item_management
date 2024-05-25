@@ -8,6 +8,7 @@
 
 @section('content')
     <p>Welcome to the T Company Product Listing Page.</p>
+    <img src="/images/ccc.jpeg" class="bottom-image img-fluid">
 @stop
 
 @section('css')

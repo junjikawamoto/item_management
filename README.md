@@ -1,43 +1,23 @@
-## 商品管理システム
+#T社商品一覧
 
-### 環境構築手順
+#概要
+このシステムでは、T社が開発した商品の管理ができます。
+商品の新規登録、削除を行うことが出来ます。
 
-* Gitクローン
-* .env.example をコピーして .env を作成
-* MySQLのデータベース作成（名前：item_management）
-* Macの場合 .env の DB_PASSWORD を root に修正（Windowsは修正不要）
+##主な機能
+・ログイン、ログアウト機能
+・商品一覧画面
+・商品新規登録、削除機能
+・商品検索機能
 
-    ```INI
-    DB_PASSWORD=root
-    ```
+php 8.3.1
+mysql 10.4.32
+laravel 10.10
 
-* APP_KEY生成
-
-    ```console
-    php artisan key:generate
-    ```
-
-* Composerインストール
-
-    ```console
-    composer install
-    ```
-
-* フロント環境構築
-
-    ```console
-    npm ci
-    npm run build
-    ```
-
-* マイグレーション
-
-    ```console
-    php artisan migrate
-    ```
-
-* 起動
-
-    ```console
-    php artisan serve
-    ```
+設計書
+ https://drive.google.com/drive/folders/1xRp2JVD2YnIRKJbKSDZN6UczPXda-tBq?usp=sharing
+システム閲覧
+ https://item-management-2024-8b174d1c4576.herokuapp.com/
+テストアカウント
+ メールアドレス : c@c.com
+ パスワード : cccc1111

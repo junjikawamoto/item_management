@@ -50,13 +50,22 @@ class ItemController extends Controller
                 'detail' => 'required|max:100',
                 'type' => 'required|max:100',
             ]);
-
+            // dd($request->file('file'));
+            if ($request->file('file')) {
+                $file = $request->file('file');
+                $fileName = time() . '_' . $file->getClientOriginalName();
+                $filePath = $file->storeAs('uploads', $fileName, 'public');
+    
+               
+            }
             // 商品登録
             Item::create([
                 'user_id' => Auth::user()->id,
                 'name' => $request->name,
                 'type' => $request->type,
                 'detail' => $request->detail,
+                'file' => $filePath,
+
             ]);
 
             return redirect('/items');

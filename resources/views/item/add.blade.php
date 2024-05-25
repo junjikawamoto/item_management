@@ -20,12 +20,18 @@
             @endif
 
             <div class="card card-primary">
-                <form method="POST">
+                <form method="POST" enctype="multipart/form-data">
+                    
                     @csrf
                     <div class="card-body">
                         <div class="form-group">
                             <label for="name">名前</label>
                             <input type="text" class="form-control" id="name" name="name" placeholder="名前">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="type">写真</label>
+                            <input type="file" class="form-control" id="type" name="file" placeholder="写真">
                         </div>
 
                         <div class="form-group">
