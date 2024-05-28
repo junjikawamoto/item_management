@@ -50,12 +50,13 @@ class ItemController extends Controller
                 'detail' => 'required|max:100',
                 'type' => 'required|max:100',
             ]);
-            // dd($request->file('file'));
+            // dd(base64_encode($request->file('file')));
+                // base64_encode($request->image->get())
             if ($request->file('file')) {
                 $file = $request->file('file');
                 $fileName = time() . '_' . $file->getClientOriginalName();
-                $filePath = $file->storeAs('uploads', $fileName, 'public');
-    
+                // $filePath = $file->storeAs('uploads', $fileName, 'public');
+                $filePath = base64_encode(file_get_contents($request->file->getRealPath()));
                
             }
             // 商品登録
