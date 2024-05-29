@@ -1,4 +1,4 @@
-namespace App\Http\Controllers;
+<!-- namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
@@ -33,4 +33,4 @@ class FileUploadController extends Controller
 
         return back()->with('error', 'ファイルのアップロードに失敗しました。');
     }
-}
+} -->

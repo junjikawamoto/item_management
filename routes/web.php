@@ -27,6 +27,6 @@ Route::prefix('items')->group(function () {
     Route::get('/add', [App\Http\Controllers\ItemController::class, 'add']);
     Route::post('/add', [App\Http\Controllers\ItemController::class, 'add']);
     Route::post('/delete', [App\Http\Controllers\ItemController::class, 'delete']);
-    Route::get('/upload', [FileUploadController::class, 'showUploadForm'])->name('upload.form');
-    Route::post('/upload', [FileUploadController::class, 'uploadFile'])->name('upload.file');
+    Route::get('/upload', [ItemController::class, 'showUploadForm'])->name('upload.form');
+    Route::post('/upload', [ItemController::class, 'uploadFile'])->name('upload.file');
 });
