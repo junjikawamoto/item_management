@@ -46,8 +46,8 @@
                             @foreach ($items as $item)
                                 <tr>
                                     <td>{{ $item->id }}</td>
-                                    <td><img src="/storage/{{ $item->file }}" alt=""> </td>
-                                    
+                                    <!-- <td><img src="/storage/{{ $item->file }}" alt=""> </td> -->
+                                    <td><img src="data:image/png;base64,<?= $item->file  ?>"><img src="/storage/{{ $item->file }}" alt=""> </td>
                                     <td>{{ $item->name }}</td>
                                     <td>{{ $item->type }}</td>
                                     <td>{{ $item->detail }}</td>
