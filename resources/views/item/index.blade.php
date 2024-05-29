@@ -31,7 +31,7 @@
                     </div>
                 </div>
                 <div class="card-body table-responsive p-0">
-                    <table class="table table-hover text-nowrap">
+                    <table class="table table-hover text-nowrap"> 
                         <thead>
                             <tr>
                                 <th>ID</th>
@@ -46,7 +46,8 @@
                             @foreach ($items as $item)
                                 <tr>
                                     <td>{{ $item->id }}</td>
-                                    <td><img src="data:image/png;base64,<?= $item->file  ?>"><img src="/storage/{{ $item->file }}" alt=""> </td>
+                                    <td><img src="/storage/{{ $item->file }}" alt=""> </td>
+                                    
                                     <td>{{ $item->name }}</td>
                                     <td>{{ $item->type }}</td>
                                     <td>{{ $item->detail }}</td>

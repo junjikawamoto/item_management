@@ -55,9 +55,9 @@ class ItemController extends Controller
             if ($request->file('file')) {
                 $file = $request->file('file');
                 $fileName = time() . '_' . $file->getClientOriginalName();
-                // $filePath = $file->storeAs('uploads', $fileName, 'public');
-                $filePath = base64_encode(file_get_contents($request->file->getRealPath()));
-               
+                $filePath = $file->storeAs('uploads', $fileName, 'public');
+                // $filePath = base64_encode(file_get_contents($request->file->getRealPath()));
+                
             }
             // 商品登録
             Item::create([
